@@ -27,47 +27,51 @@ public class AlapMuvelet extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        jLabelFeladat = new javax.swing.JLabel();
+        jTextValasz = new javax.swing.JTextField();
+        jButtonEllenorzes = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jButtonUjFeladat = new javax.swing.JButton();
+        jButtonMegoldas = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jLabelOsszKerdesSzorzas = new javax.swing.JLabel();
+        jLabelOsszKerdesOssze = new javax.swing.JLabel();
+        jLabelOsszKerdesKivon = new javax.swing.JLabel();
+        jLabelOsszKerdesOsztas = new javax.swing.JLabel();
+        jLabelOsszKerdes = new javax.swing.JLabel();
+        jLabelOsszProba = new javax.swing.JLabel();
+        jLabelOsszProbaOsszeadas = new javax.swing.JLabel();
+        jLabelOsszProbaKivonas = new javax.swing.JLabel();
+        jLabelOsszProbaOsztas = new javax.swing.JLabel();
+        jLabelOsszProbaSzorzas = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
+        jMenuFajl = new javax.swing.JMenu();
+        jMenuMegnyit = new javax.swing.JMenuItem();
+        jMenuMent = new javax.swing.JMenuItem();
+        jSeparator1 = new javax.swing.JPopupMenu.Separator();
+        jMenuKilep = new javax.swing.JMenuItem();
+        jMenuMuv = new javax.swing.JMenu();
+        jMenuMuvOsszead = new javax.swing.JRadioButtonMenuItem();
+        jMenuMuvKivonas = new javax.swing.JRadioButtonMenuItem();
+        jMenuMuvSzorzas = new javax.swing.JRadioButtonMenuItem();
+        jMenuMuvOsztas = new javax.swing.JRadioButtonMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Gyakorlás");
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Gakorlás"));
 
-        jLabel2.setText("5+12=");
+        jLabelFeladat.setText("5+12=");
 
-        jTextField1.setText("jTextField1");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jTextValasz.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jTextValaszActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Ellenőrzés");
+        jButtonEllenorzes.setText("Ellenőrzés");
 
         jLabel14.setText("15 nem jó!");
 
@@ -76,83 +80,77 @@ public class AlapMuvelet extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(52, 52, 52)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
+                        .addComponent(jLabel14)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel14)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addGap(39, 39, 39)
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton1)))))
+                        .addComponent(jLabelFeladat)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextValasz, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButtonEllenorzes)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(27, 27, 27)
+                .addGap(41, 41, 41)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(jLabelFeladat)
+                    .addComponent(jTextValasz, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonEllenorzes))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel14)
                 .addGap(0, 15, Short.MAX_VALUE))
         );
 
-        jButton2.setText("jButton2");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        jButtonUjFeladat.setText("Új feladat");
+        jButtonUjFeladat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                jButtonUjFeladatActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Megoldás");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        jButtonMegoldas.setText("Megoldás");
+        jButtonMegoldas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                jButtonMegoldasActionPerformed(evt);
             }
         });
 
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel4.setText("Szorzás:0");
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Statisztika"));
 
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel5.setText("Összeadás:1");
+        jLabelOsszKerdesSzorzas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszKerdesSzorzas.setText("Szorzás:0");
 
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel6.setText("Kivonás:0");
+        jLabelOsszKerdesOssze.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszKerdesOssze.setText("Összeadás:1");
 
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel7.setText("Osztás:0");
+        jLabelOsszKerdesKivon.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszKerdesKivon.setText("Kivonás:0");
 
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel8.setText("Össz kérdések száma:1");
+        jLabelOsszKerdesOsztas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszKerdesOsztas.setText("Osztás:0");
 
-        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel9.setText("Összes Probélkozások száma:1");
+        jLabelOsszKerdes.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszKerdes.setText("Össz kérdések száma:1");
 
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel10.setText("Összeadés:1");
+        jLabelOsszProba.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszProba.setText("Összes Probélkozások száma:1");
 
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel11.setText("Kivonás:0");
+        jLabelOsszProbaOsszeadas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszProbaOsszeadas.setText("Összeadés:1");
 
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel12.setText("Osztás:0");
+        jLabelOsszProbaKivonas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszProbaKivonas.setText("Kivonás:0");
 
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel13.setText("Szorzás:0");
+        jLabelOsszProbaOsztas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszProbaOsztas.setText("Osztás:0");
 
-        jLabel3.setText("Statisztika");
+        jLabelOsszProbaSzorzas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelOsszProbaSzorzas.setText("Szorzás:0");
 
         jLabel15.setText("Eredmény: 0 %");
 
@@ -165,70 +163,105 @@ public class AlapMuvelet extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap(85, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel6))
+                            .addComponent(jLabelOsszKerdesSzorzas)
+                            .addComponent(jLabelOsszKerdesOsztas)
+                            .addComponent(jLabelOsszKerdesOssze)
+                            .addComponent(jLabelOsszKerdes)
+                            .addComponent(jLabelOsszKerdesKivon))
                         .addGap(74, 74, 74)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addComponent(jLabelOsszProba, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabelOsszProbaOsszeadas, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabelOsszProbaKivonas, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabelOsszProbaOsztas, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabelOsszProbaSzorzas, javax.swing.GroupLayout.Alignment.TRAILING)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(19, 19, 19)
-                                .addComponent(jLabel3))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel15)))
+                        .addContainerGap()
+                        .addComponent(jLabel15)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel3)
-                .addGap(18, 18, 18)
+                .addGap(32, 32, 32)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel8))
+                    .addComponent(jLabelOsszProba)
+                    .addComponent(jLabelOsszKerdes))
                 .addGap(26, 26, 26)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel5))
+                    .addComponent(jLabelOsszProbaOsszeadas)
+                    .addComponent(jLabelOsszKerdesOssze))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel11))
+                    .addComponent(jLabelOsszKerdesKivon)
+                    .addComponent(jLabelOsszProbaKivonas))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel12))
+                    .addComponent(jLabelOsszKerdesOsztas)
+                    .addComponent(jLabelOsszProbaOsztas))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel4))
+                    .addComponent(jLabelOsszProbaSzorzas)
+                    .addComponent(jLabelOsszKerdesSzorzas))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel15)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jMenu1.setText("fájl");
+        jMenuFajl.setText("fájl");
 
-        jMenuItem1.setText("jMenuItem1");
-        jMenu1.add(jMenuItem1);
+        jMenuMegnyit.setText("Megnyit");
+        jMenuFajl.add(jMenuMegnyit);
 
-        jMenuItem2.setText("jMenuItem2");
-        jMenu1.add(jMenuItem2);
+        jMenuMent.setText("Ment");
+        jMenuMent.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuMentActionPerformed(evt);
+            }
+        });
+        jMenuFajl.add(jMenuMent);
+        jMenuFajl.add(jSeparator1);
 
-        jMenuBar1.add(jMenu1);
+        jMenuKilep.setText("Kilép");
+        jMenuFajl.add(jMenuKilep);
 
-        jMenu2.setText("műveletek");
-        jMenuBar1.add(jMenu2);
+        jMenuBar1.add(jMenuFajl);
+
+        jMenuMuv.setText("műveletek");
+
+        buttonGroup1.add(jMenuMuvOsszead);
+        jMenuMuvOsszead.setText("Ősszeadás");
+        jMenuMuvOsszead.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuMuvOsszeadActionPerformed(evt);
+            }
+        });
+        jMenuMuv.add(jMenuMuvOsszead);
+
+        buttonGroup1.add(jMenuMuvKivonas);
+        jMenuMuvKivonas.setText("Kivonás");
+        jMenuMuvKivonas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuMuvKivonasActionPerformed(evt);
+            }
+        });
+        jMenuMuv.add(jMenuMuvKivonas);
+
+        buttonGroup1.add(jMenuMuvSzorzas);
+        jMenuMuvSzorzas.setText("Szorzás");
+        jMenuMuv.add(jMenuMuvSzorzas);
+
+        buttonGroup1.add(jMenuMuvOsztas);
+        jMenuMuvOsztas.setText("Osztás");
+        jMenuMuvOsztas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuMuvOsztasActionPerformed(evt);
+            }
+        });
+        jMenuMuv.add(jMenuMuvOsztas);
+
+        jMenuBar1.add(jMenuMuv);
 
         setJMenuBar(jMenuBar1);
 
@@ -237,31 +270,30 @@ public class AlapMuvelet extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton2)
-                            .addComponent(jButton3)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButtonUjFeladat)
+                    .addComponent(jButtonMegoldas))
+                .addGap(38, 38, 38))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jButton2)
+                        .addGap(29, 29, 29)
+                        .addComponent(jButtonUjFeladat)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton3)))
+                        .addComponent(jButtonMegoldas)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -270,17 +302,33 @@ public class AlapMuvelet extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButtonUjFeladatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonUjFeladatActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_jButtonUjFeladatActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButtonMegoldasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMegoldasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_jButtonMegoldasActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextValaszActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextValaszActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jTextValaszActionPerformed
+
+    private void jMenuMuvOsszeadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMuvOsszeadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuMuvOsszeadActionPerformed
+
+    private void jMenuMuvKivonasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMuvKivonasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuMuvKivonasActionPerformed
+
+    private void jMenuMuvOsztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMuvOsztasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuMuvOsztasActionPerformed
+
+    private void jMenuMentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMentActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuMentActionPerformed
 
     /**
      * @param args the command line arguments
@@ -319,31 +367,36 @@ public class AlapMuvelet extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JButton jButtonEllenorzes;
+    private javax.swing.JButton jButtonMegoldas;
+    private javax.swing.JButton jButtonUjFeladat;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
+    private javax.swing.JLabel jLabelFeladat;
+    private javax.swing.JLabel jLabelOsszKerdes;
+    private javax.swing.JLabel jLabelOsszKerdesKivon;
+    private javax.swing.JLabel jLabelOsszKerdesOssze;
+    private javax.swing.JLabel jLabelOsszKerdesOsztas;
+    private javax.swing.JLabel jLabelOsszKerdesSzorzas;
+    private javax.swing.JLabel jLabelOsszProba;
+    private javax.swing.JLabel jLabelOsszProbaKivonas;
+    private javax.swing.JLabel jLabelOsszProbaOsszeadas;
+    private javax.swing.JLabel jLabelOsszProbaOsztas;
+    private javax.swing.JLabel jLabelOsszProbaSzorzas;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenu jMenuFajl;
+    private javax.swing.JMenuItem jMenuKilep;
+    private javax.swing.JMenuItem jMenuMegnyit;
+    private javax.swing.JMenuItem jMenuMent;
+    private javax.swing.JMenu jMenuMuv;
+    private javax.swing.JRadioButtonMenuItem jMenuMuvKivonas;
+    private javax.swing.JRadioButtonMenuItem jMenuMuvOsszead;
+    private javax.swing.JRadioButtonMenuItem jMenuMuvOsztas;
+    private javax.swing.JRadioButtonMenuItem jMenuMuvSzorzas;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JTextField jTextValasz;
     // End of variables declaration//GEN-END:variables
 }
