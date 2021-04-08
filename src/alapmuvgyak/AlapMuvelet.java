@@ -72,6 +72,11 @@ public class AlapMuvelet extends javax.swing.JFrame {
         });
 
         jButtonEllenorzes.setText("Ellenőrzés");
+        jButtonEllenorzes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonEllenorzesActionPerformed(evt);
+            }
+        });
 
         jLabel14.setText("15 nem jó!");
 
@@ -323,12 +328,17 @@ public class AlapMuvelet extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuMuvKivonasActionPerformed
 
     private void jMenuMuvOsztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMuvOsztasActionPerformed
-        // TODO add your handling code here:
+jLabelFeladat.setText("10/5=");
+jTextValasz.setText("");
     }//GEN-LAST:event_jMenuMuvOsztasActionPerformed
 
     private void jMenuMentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuMentActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuMentActionPerformed
+
+    private void jButtonEllenorzesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEllenorzesActionPerformed
+      ertekeles();
+    }//GEN-LAST:event_jButtonEllenorzesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -399,4 +409,15 @@ public class AlapMuvelet extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextValasz;
     // End of variables declaration//GEN-END:variables
+
+    private void ertekeles() {
+        String Valasz=jTextValasz.getText();
+        if ("2".equals(Valasz)) {
+            jLabel14.setText("Jó a válasz");
+            
+        }
+        else{
+            jLabel14.setText("Nem jó a válasz");
+        }
+    }
 }
